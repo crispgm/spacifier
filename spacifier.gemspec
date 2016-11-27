@@ -21,8 +21,4 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
-
-  # spec.add_development_dependency "minitest"
-  # spec.add_development_dependency "shoulda-context"
-  # spec.add_development_dependency "codeclimate-test-reporter", "0.6.0"
 end

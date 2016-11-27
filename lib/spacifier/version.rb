@@ -1,3 +1,3 @@
 module Spacifier
-  VERSION = "1.0.0-alpha3".freeze
+  VERSION = "1.0.0-alpha4".freeze
 end
