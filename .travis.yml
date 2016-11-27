@@ -4,6 +4,6 @@ rvm:
   - 2.3.1
   - 2.2.5
 env:
-  - CODECLIMATE_REPO_TOKEN: a3b92a7e935316eab6293228fa587784c95b9dd10ab61adb4fdb9ecb6ca330d8
+  - CODECLIMATE_REPO_TOKEN: b92d3200cc23b1d88a0dce55f92c7dc814c720eb3d6bfee2a9c9eed4a9ef2aee
 after_success:
   - bundle exec codeclimate-test-reporter
