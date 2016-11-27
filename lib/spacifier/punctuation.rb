@@ -1,11 +1,9 @@
 # encoding: utf-8
 
 module Spacifier
-  CHINESE_PUNCTUATIONS = "，。／、（）【】「」·～《》？".freeze
-
   class << self
-    def is_chinese_punctuation(c)
-      CHINESE_PUNCTUATIONS.include? c
+    def is_punctuation(c)
+      !(/\p{P}/.match(c) == nil)
     end
   end
 end
