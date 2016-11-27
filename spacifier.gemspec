@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'spacifier/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "Spacifier"
+  spec.name          = "spacifier"
   spec.version       = Spacifier::VERSION
   spec.authors       = ["David Zhang"]
   spec.email         = ["crispgm@gmail.com"]
