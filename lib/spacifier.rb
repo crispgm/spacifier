@@ -14,7 +14,9 @@ module Spacifier
       last_word_type = nil # 0 for cn, 1 for en
       # iterate chars
       words.each_char do |c|
-        if /\p{Han}/.match(c) == nil || !is_chinese_punctuation(c)
+        if is_chinese_punctuation(c)
+          new_words << c
+        elsif /\p{Han}/.match(c) == nil
           new_words << " " if last_word_type == 0
           new_words << c
           last_word_type = 1
