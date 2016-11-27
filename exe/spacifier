@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), *%w(.. lib)))
+
+require "spacifier"
+
+input = ARGF.read
+
+puts Spacifier.spacify(input)
