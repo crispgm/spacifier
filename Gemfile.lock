@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    spacifier (1.0.0.pre.alpha4)
+    spacifier (1.0.0.pre.beta1)
 
 GEM
   remote: https://rubygems.org/
