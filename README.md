@@ -2,8 +2,8 @@
 
 [![Gem Version](https://badge.fury.io/rb/spacifier.svg)](https://badge.fury.io/rb/spacifier)
 [![](https://api.travis-ci.org/crispgm/spacifier.svg)](https://travis-ci.org/crispgm/spacifier)
-[![Code Climate](https://codeclimate.com/github/crispgm/spacifier/badges/gpa.svg)](https://codeclimate.com/github/crispgm/spacifier)
-[![Test Coverage](https://codeclimate.com/github/crispgm/spacifier/badges/coverage.svg)](https://codeclimate.com/github/crispgm/spacifier/coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/6d1485b9aa480724d848/maintainability)](https://codeclimate.com/github/crispgm/spacifier/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/6d1485b9aa480724d848/test_coverage)](https://codeclimate.com/github/crispgm/spacifier/test_coverage)
 
 Insert a space between a Chinese character and a western character.
 

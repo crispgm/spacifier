@@ -1,29 +1,29 @@
 PATH
   remote: .
   specs:
-    spacifier (1.0.0.pre.beta1)
+    spacifier (1.0.0.pre.beta2)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    codeclimate-test-reporter (1.0.3)
-      simplecov
+    codeclimate-test-reporter (1.0.8)
+      simplecov (<= 0.13)
     docile (1.1.5)
-    json (2.0.2)
+    json (2.1.0)
     minitest (5.9.1)
     rake (11.3.0)
     shoulda-context (1.2.2)
-    simplecov (0.12.0)
+    simplecov (0.13.0)
       docile (~> 1.1.0)
       json (>= 1.8, < 3)
       simplecov-html (~> 0.10.0)
-    simplecov-html (0.10.0)
+    simplecov-html (0.10.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  codeclimate-test-reporter (~> 1.0.0)
+  codeclimate-test-reporter
   minitest
   rake
   shoulda-context
@@ -31,4 +31,4 @@ DEPENDENCIES
   spacifier!
 
 BUNDLED WITH
-   1.13.6
+   1.16.1

@@ -6,5 +6,5 @@ group :test do
   gem "minitest"
   gem "shoulda-context"
   gem "simplecov"
-  gem "codeclimate-test-reporter", "~> 1.0.0"
+  gem "codeclimate-test-reporter"
 end
