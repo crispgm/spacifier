@@ -37,4 +37,16 @@ module Spacifier
       new_words
     end
   end
+
+  module Jekyll
+    module Filter
+      def spacify(input)
+        Spacifier.spacify(input)
+      end
+    end
+  end
+end
+
+if defined?(Liquid)
+  Liquid::Template.register_filter(Spacifier::Jekyll::Filter)
 end
