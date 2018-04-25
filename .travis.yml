@@ -1,9 +1,17 @@
 language: ruby
 cache: bundler
 rvm:
-  - 2.3.1
-  - 2.2.5
+  - 2.4.0
 env:
-  - CODECLIMATE_REPO_TOKEN: b92d3200cc23b1d88a0dce55f92c7dc814c720eb3d6bfee2a9c9eed4a9ef2aee
+  global:
+    - CC_TEST_REPORTER_ID=b92d3200cc23b1d88a0dce55f92c7dc814c720eb3d6bfee2a9c9eed4a9ef2aee
+before_script:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
+script:
+  - rake test
+after_script:
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
 after_success:
   - bundle exec codeclimate-test-reporter
