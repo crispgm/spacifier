@@ -7,6 +7,8 @@
 
 Insert a space between a Chinese character and a western character.
 
+在中西文字符之间插入空格。
+
 ## Installation
 
 ```
@@ -29,4 +31,27 @@ $ 何为跨域？何为 JSONP？JSONP 技术能实现什么？是否有必要使
 
 ## Jekyll-spacify
 
-* WIP
+Add `spacifier` to `Gemfile`:
+
+```
+gem "spacify"
+```
+
+And then,
+
+```
+$ bundle install
+```
+
+Add `spacifier` to `_config.yml`:
+
+```
+plugins:
+  - spacifier
+```
+
+Use in your contents:
+
+```
+{{ "你好，Hello世界world" | spacify }}
+```
