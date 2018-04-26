@@ -31,6 +31,8 @@ $ 何为跨域？何为 JSONP？JSONP 技术能实现什么？是否有必要使
 
 ## Jekyll-spacify
 
+Jekyll-spacify is a Liquid filter plugin for Jekyll, based on spacifier. As soon as you get spacifier, Jekyll-spacify is embedded in.
+
 Add `spacifier` to `Gemfile`:
 
 ```
