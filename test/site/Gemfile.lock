@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/crispgm/spacifier.git
-  revision: 586a05181dc1625a3f3ce71d6fc0ebbdac0e0f42
+  revision: b54f92242a30c40d61e52d3837839f874251f6c6
   specs:
     spacifier (1.1.0.pre.beta1)
 
