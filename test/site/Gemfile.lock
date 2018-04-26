@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/crispgm/spacifier.git
-  revision: 88c81be2b5712beabff1dc5f9810b53bd00bc331
+  revision: 586a05181dc1625a3f3ce71d6fc0ebbdac0e0f42
   specs:
-    spacifier (1.0.0.pre.beta2)
+    spacifier (1.1.0.pre.beta1)
 
 GEM
   remote: https://rubygems.org/
