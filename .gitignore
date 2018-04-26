@@ -50,3 +50,4 @@ build-iPhoneSimulator/
 .rvmrc
 /test/site/_site
 /test/site/.sass-cache
+Gemfile.lock
