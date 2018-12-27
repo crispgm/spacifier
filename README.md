@@ -36,7 +36,7 @@ Jekyll-spacify is a Liquid filter plugin for Jekyll, based on spacifier. As soon
 Add `spacifier` to `Gemfile`:
 
 ```
-gem "spacify"
+gem "spacifier"
 ```
 
 And then,
@@ -57,3 +57,9 @@ Use in your contents:
 ```
 {{ "你好，Hello世界world" | spacify }}
 ```
+
+## License
+
+MIT License.
+
+Copyright (c) David Zhang, 2018.
