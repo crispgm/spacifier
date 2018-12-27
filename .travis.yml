@@ -13,9 +13,6 @@ before_script:
 script:
   - bundle exec rake test
 after_script:
-  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
-after_success:
-  - bundle exec codeclimate-test-reporter
+  - cd ../../ && ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
 notifications:
   email: false
-  slack: navyblue-team:ioO5diAGc5WUQVDKc5BH1UbE
