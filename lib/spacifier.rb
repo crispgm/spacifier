@@ -20,7 +20,7 @@ module Spacifier
         elsif /\d/.match(c) != nil
           new_words << c
           last_word_type = nil
-        elsif is_punctuation(c)
+        elsif punct?(c)
           new_words << c
           last_word_type = nil
         elsif /\p{Han}/.match(c) == nil

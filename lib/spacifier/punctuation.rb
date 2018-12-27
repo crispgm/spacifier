@@ -2,7 +2,7 @@
 
 module Spacifier
   class << self
-    def is_punctuation(c)
+    def punct?(c)
       !(/\p{P}/.match(c) == nil)
     end
   end
