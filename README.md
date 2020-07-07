@@ -62,4 +62,4 @@ Use in your contents:
 
 MIT License.
 
-Copyright (c) David Zhang, 2018.
+Copyright (c) David Zhang, 2020.
