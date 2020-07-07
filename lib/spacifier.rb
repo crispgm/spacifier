@@ -7,6 +7,7 @@ module Spacifier
 
   class << self
     def spacify(words)
+      return '' unless words.is_a?(String)
       # strip words
       words.strip!
       # init vars
