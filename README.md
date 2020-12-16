@@ -1,7 +1,7 @@
 # Spacifier
 
 [![Gem Version](https://badge.fury.io/rb/spacifier.svg)](https://badge.fury.io/rb/spacifier)
-[![](https://api.travis-ci.org/crispgm/spacifier.svg)](https://travis-ci.org/crispgm/spacifier)
+![GitHub CI](https://github.com/crispgm/resume/workflows/build/badge.svg)
 [![Maintainability](https://api.codeclimate.com/v1/badges/6d1485b9aa480724d848/maintainability)](https://codeclimate.com/github/crispgm/spacifier/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/6d1485b9aa480724d848/test_coverage)](https://codeclimate.com/github/crispgm/spacifier/test_coverage)
 
